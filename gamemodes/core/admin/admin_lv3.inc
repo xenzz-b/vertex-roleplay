@@ -434,7 +434,7 @@ YCMD:ginsu(playerid, params[], help)
     new countdown;
     if(sscanf(params, "d", countdown)) return SUM(playerid, "/ginsu [menit]");
 
-    if(countdown < 2) return ShowTDN(playerid, NOTIFICATION_ERROR, "Tidak dapat kurang dari 2 menit!");
+    if(countdown < 1) return ShowTDN(playerid, NOTIFICATION_ERROR, "Tidak dapat kurang dari 2 menit!");
     if(countdown > 5) return ShowTDN(playerid, NOTIFICATION_ERROR, "Tidak dapat lebih dari 5 menit!");
 
     GM[GInsuTime] = countdown * 60;

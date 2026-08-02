@@ -1,6 +1,6 @@
 #include <YSI_Coding\y_hooks>
 new PlayerText: StaticNSrp[MAX_PLAYERS][34];
-new OnlinePlayerAll;
+// new OnlinePlayerAll;
 
 CreatePStatsTD(playerid)
 {
@@ -414,15 +414,15 @@ CreatePStatsTD(playerid)
 //     return 1;
 // }
 
-enum e_HUDCache {
-    cache_Money,
-    cache_Bank,
-    cache_Family,
-    cache_Job,
-    cache_Faction,
-    cache_Online
-};
-new HUDCache[MAX_PLAYERS][e_HUDCache];
+// enum e_HUDCache {
+//     cache_Money,
+//     cache_Bank,
+//     cache_Family,
+//     cache_Job,
+//     cache_Faction,
+//     cache_Online
+// };
+// new HUDCache[MAX_PLAYERS][e_HUDCache];
 
 // stock InitPlayerHUD(playerid)
 // {

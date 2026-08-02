@@ -78,9 +78,9 @@
 #define BAN_MASK \
 	(-1<<(32-(26))) // 26 = this is the CIDR ip detection range
 
-#define TEXT_HOSTNAME   "Nexston Roleplay"
-#define TEXT_GAMEMODE	"N:RP V0.1.5"
-#define TEXT_WEBURL		"discord.gg/nexston"
+#define TEXT_HOSTNAME   "Vertex Roleplay"
+#define TEXT_GAMEMODE	"V:RP v0.1.1"
+#define TEXT_WEBURL		"discord.gg/vertex"
 #define TEXT_LANGUAGE	"Indonesia"
 #define TEXT_IPADDRESS	"165.101.18.130"
 #define TEXT_IPPORT		":7005"

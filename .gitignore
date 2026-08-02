@@ -1,5 +1,4 @@
 # Mengecualikan folder (tambahkan garis miring di akhir)
-database/
 logs/
 
 # Mengecualikan semua file dengan ekstensi tertentu
